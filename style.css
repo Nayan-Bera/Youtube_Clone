@@ -7,3 +7,26 @@
 img{
     cursor: pointer;
 }
+.n-flex{
+    display: flex;
+    align-items: center;
+
+}
+nav{
+    /* border: 2px red solid; */
+    padding: 10px 20px;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+}
+.nav-right img{
+    width: 25px;
+}
+.nav-left img{
+    width: 40px;
+}
+.nav-left .ytlogo{
+    width: 80px;
+
+}
