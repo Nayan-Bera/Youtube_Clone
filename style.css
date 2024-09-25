@@ -22,7 +22,17 @@ nav{
 }
 .nav-right img{
     width: 25px;
+    margin-right: 25px;
 }
+
+.nav-right .userimg{
+  border-radius: 50%;
+}
+
+.nav-right .noti{
+    width: 18px;
+}
+
 .nav-left img{
     width: 40px;
 }
