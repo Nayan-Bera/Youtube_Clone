@@ -1,9 +1,13 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'poppins', 'sans-serif';
 }
+body{
+    background-color:rgb(42, 41, 41);
+}
+
 img{
     cursor: pointer;
 }
@@ -39,4 +43,51 @@ nav{
 .nav-left .ytlogo{
     width: 80px;
 
+}
+
+.nav-middle{
+    /* border: 2px red solid; */
+    width: 35%;
+}
+
+.nav-middle .mic-icon{
+    width: 26px;
+
+}
+
+.search-box{
+    width: 90%;
+    border: 1px solid gray;
+    border-radius: 50px;
+    justify-content: space-evenly;
+}
+
+.search-box input{
+    width: 80%;
+    border: none;
+    padding: .4rem;
+    outline: none;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+
+}
+
+.search-box img{
+    width:45px;
+    border: 2px solid green;
+    padding:10px;
+    border-radius: 50px;
+}
+
+.mic-div{
+    border: solid green;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    border-radius: 50%;
+}
+.mic-icon{
+    border: 2px solid red;
+    border-radius: 50px;
 }
